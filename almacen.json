@@ -1,58 +1,119 @@
 {
-  "mascotas": [
-    {
-      "id": "1",
-      "nombre": "Princesa",
-      "tipo": "Perro",
-      "color": "verde"
-    },
-    {
-      "id": "2",
-      "nombre": "Leon",
-      "tipo": "Perro",
-      "color": "Blanco"
-    },
-    {
-      "id": "3",
-      "nombre": "Rainman",
-      "tipo": "Tortuga",
-      "color": "verde"
-    }
-  ],
   "usuarios": [
     {
       "id": "1",
-      "username": "usuario1",
-      "email": "usuario1@mail.cl",
+      "username": "ben.arancibia",
       "password": "duoc1234",
+      "email": "ben.arancibiaa@duocuc.cl",
+      "rut": "20750574-9",
       "isactive": true
     },
     {
       "id": "2",
-      "username": "usuario2",
-      "email": "usuario2@mail.cl",
-      "password": "maipu1234",
+      "username": "elias.figueroa",
+      "password": "duoc1234",
+      "email": "elias.figueroa@duocuc.cl",
+      "rut": "20843835-2",
+      "isactive": true
+    },
+    {
+      "id": "8dee",
+      "username": "Benjamin",
+      "email": "ben.arancibiaa@duocuc.cl",
+      "password": "Duoc1234",
+      "rut": "20750574-9",
+      "isactive": true
+    },
+    {
+      "id": "6240",
+      "username": "Viviana",
+      "email": "vivi@gmail.com",
+      "password": "Duoc1234",
+      "rut": "13463003-2",
       "isactive": true
     }
   ],
-  "qr": [
+  "asignaturas": [
     {
-      "id": "208b",
-      "nomMascota": "Rainman",
-      "tipoMascota": "Tortuga",
-      "username": "usuario1"
+      "id": "1",
+      "nombre": "Calidad de Software",
+      "profesor": "Francisco Valdivieso",
+      "fecha": "24/11/2024",
+      "descripcion": "Esta asignatura se enfoca en el conjunto de características que determinan la utilidad y existencia de un software.",
+      "imagen": "assets/calidad.png"
     },
     {
-      "id": "b95f",
-      "nomMascota": "Leon",
-      "tipoMascota": "Perro",
-      "username": "usuario1"
+      "id": "2",
+      "nombre": "Etica Profesional",
+      "profesor": "Angel Moreno",
+      "fecha": "21/11/2024",
+      "descripcion": "Esta asignatura se enfoca en el conjunto de valores y normas que orientan la conducta de los profesionales en el ejercicio de su profesión.",
+      "imagen": "assets/etica.png"
     },
     {
-      "id": "207d",
-      "nomMascota": "Princesa",
-      "tipoMascota": "Perro",
-      "username": "usuario1"
+      "id": "3",
+      "nombre": "Gestión de Proyectos Informaticos",
+      "profesor": "Luis Zuñiga",
+      "fecha": "21/11/2024",
+      "descripcion": "Aquí aprenderás a planificar, ejecutar y controlar proyectos de tecnología de la información, utilizando metodologías ágiles y herramientas de gestión.",
+      "imagen": "assets/gestion.png"
+    },
+    {
+      "id": "4",
+      "nombre": "Herramientas para el Emprendimiento",
+      "profesor": "Rodrigo Mejias",
+      "fecha": "21/11/2024",
+      "descripcion": "En esta asignatura se desarrollan habilidades y actitudes necesarias para identificar oportunidades de negocio y crear nuevas empresas innovadoras.",
+      "imagen": "assets/emprendimiento.png"
+    },
+    {
+      "id": "5",
+      "nombre": "Integrated English Practice",
+      "profesor": "Marisol Cerda",
+      "fecha": "21/11/2024",
+      "descripcion": "Esta asignatura es una certificación que ofrece Trinity College London para evaluar las habilidades de inglés en lectura, escritura, comprensión oral y habla.",
+      "imagen": "assets/english.png"
+    },
+    {
+      "id": "6",
+      "nombre": "Inteligencia de Negocios",
+      "profesor": "Julian Corvalan",
+      "fecha": "21/11/2024",
+      "descripcion": "Esta asignatura combina análisis de negocios, minería de datos, visualización de datos, herramientas e infraestructura de datos, y las prácticas recomendadas para ayudar a las organizaciones a tomar decisiones más basadas en los datos.",
+      "imagen": "assets/inteligencia.png"
+    },
+    {
+      "id": "7",
+      "nombre": "Machine Learning",
+      "profesor": "Francismo Madrid",
+      "fecha": "21/11/2024",
+      "descripcion": "El machine learning, o aprendizaje automático, es una rama de la inteligencia artificial (IA) que permite a las computadoras aprender de los datos y mejorar con la experiencia sin ser programadas explícitamente.",
+      "imagen": "assets/machine.png"
+    },
+    {
+      "id": "8",
+      "nombre": "Programación de Aplicaciones Móviles",
+      "profesor": "Viviana Poblete",
+      "fecha": "21/11/2024",
+      "descripcion": "El desarrollo de aplicaciones móviles es el proceso de crear y lanzar software para dispositivos móviles, como teléfonos inteligentes, tabletas, relojes inteligentes, lectores electrónicos y consolas de juegos portátiles.",
+      "imagen": "assets/moviles.png"
+    },
+    {
+      "id": "9",
+      "nombre": "Seguridad de Sistemas Computaciones",
+      "profesor": "Daniel Montero",
+      "fecha": "21/11/2024",
+      "descripcion": "Esta asignatura es la disciplina que se encarga de proteger los sistemas informáticos de amenazas externas e internas",
+      "imagen": "assets/seguridad.png"
+    }
+  ],
+  "justificaciones": [
+    {
+      "id": "2bfc",
+      "asignatura": "Etica Profesional",
+      "fecha": "2024-11-27",
+      "descripcion": "Me duele la guata",
+      "profesor": "Angel Moreno\""
     }
   ]
 }
